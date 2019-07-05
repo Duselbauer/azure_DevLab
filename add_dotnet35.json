@@ -1,0 +1,16 @@
+
+{
+    "$schema": "https://github.com/Duselbauer/azure_DevLab/dotnet35.json",
+    "title": "Add .Net 3.5 Framework",
+    "publisher": "Microsoft",
+    "description": "Install .Net Framework 3.5 on Windows Servers by Powershell",
+    "tags": [
+        "Windows",
+        "Powershell"
+    ],
+    "iconUri": "",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "['powershell.exe -SetExecutionPolicy bypass ./add_dotnet35.ps1']"
+    }
+}
