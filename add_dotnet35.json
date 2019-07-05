@@ -1,4 +1,3 @@
-
 {
     "$schema": "https://github.com/Duselbauer/azure_DevLab/dotnet35.json",
     "title": "Add .Net 3.5 Framework",
@@ -11,6 +10,6 @@
     "iconUri": "",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "['powershell.exe -SetExecutionPolicy bypass ./add_dotnet35.ps1']"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./add_dotnet35.ps1']" 
     }
 }
